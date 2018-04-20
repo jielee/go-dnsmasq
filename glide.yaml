@@ -1,0 +1,11 @@
+package: github.com/jielee/go-dnsmasq
+import:
+- package: github.com/codegangsta/cli
+- package: github.com/coreos/go-systemd
+  subpackages:
+  - activation
+- package: github.com/miekg/dns
+- package: github.com/rcrowley/go-metrics
+  subpackages:
+  - stathat
+- package: github.com/sirupsen/logrus

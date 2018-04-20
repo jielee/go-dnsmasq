@@ -1,0 +1,48 @@
+hash: 045344fb0337c3098be3b321d0a0d2cdf45c86a4c96a1317419a3dda3e459909
+updated: 2018-04-20T13:03:36.256627+02:00
+imports:
+- name: github.com/codegangsta/cli
+  version: 8e01ec4cd3e2d84ab2fe90d8210528ffbb06d8ff
+- name: github.com/coreos/go-systemd
+  version: d1b7d058aa2adfc795ad17ff4aaa2bc64ec11c78
+  subpackages:
+  - activation
+- name: github.com/jielee/go-dnsmasq
+  version: 4ec175c3090c3d52bf982e7a8149c350865ce120
+  subpackages:
+  - cache
+  - hostsfile
+  - resolvconf
+  - server
+  - stats
+- name: github.com/miekg/dns
+  version: 01d59357d468872339068bcd5d55a00e2463051f
+- name: github.com/rcrowley/go-metrics
+  version: d932a24a8ccb8fcadc993e5c6c58f93dac168294
+  subpackages:
+  - stathat
+- name: github.com/sirupsen/logrus
+  version: 778f2e774c725116edbc3d039dc0dfc1cc62aae8
+  subpackages:
+  - hooks/syslog
+- name: github.com/stathat/go
+  version: 74669b9f388d9d788c97399a0824adbfee78400e
+- name: golang.org/x/crypto
+  version: d6449816ce06963d9d136eee5a56fca5b0616e7e
+  subpackages:
+  - ed25519
+  - ed25519/internal/edwards25519
+  - ssh/terminal
+- name: golang.org/x/net
+  version: e90d6d0afc4c315a0d87a568ae68577cc15149a0
+  subpackages:
+  - bpf
+  - internal/iana
+  - ipv4
+  - ipv6
+- name: golang.org/x/sys
+  version: 43eea11bc92608addb41b8a406b0407495c106f6
+  subpackages:
+  - unix
+  - windows
+testImports: []
